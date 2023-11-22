@@ -1,4 +1,4 @@
-export default class ECTS {
+class ECTS {
     constructor(score) {
         this.score = score;
     }
@@ -19,3 +19,5 @@ export default class ECTS {
         }
     }
 }
+
+module.exports = ECTS;
